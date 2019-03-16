@@ -4,16 +4,16 @@ import {
   Route, 
   Switch 
 } from 'react-router-dom';
-import Nav from '../Nav';
+import Home from '../Home';
 import 'normalize.css';
+
 
 export default function App() {
   return ( 
     <Router>
       <>
-      <Nav />
       <Switch>
-        
+        <Route path="/" component={Home}></Route>
       </Switch>
       </>
     </Router>

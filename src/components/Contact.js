@@ -1,13 +1,14 @@
 import React from 'react';
+import { HiddenList, A } from '../styles/mainStyles';
 
 export default function Contact() {
   return (
-    <ul>
-      <li><a href='#'>hello@katedameron.com</a></li>
-      <li><a href='https://github.com/Katedam'>Github</a></li>
-      <li><a href='https://www.linkedin.com/in/kate-dameron/'>LinkedIn</a></li>
-      <li><a href='https://twitter.com/katerj'>Twitter</a></li>
-      <li><a href='https://www.instagram.com/katedameron/'>Instagram</a></li>
-    </ul>
+    <HiddenList>
+      <li><A href='#'>hello@katedameron.com</A></li>
+      <li><A href='https://github.com/Katedam'>Github</A></li>
+      <li><A href='https://www.linkedin.com/in/kate-dameron/'>LinkedIn</A></li>
+      <li><A href='https://twitter.com/katerj'>Twitter</A></li>
+      <li><A href='https://www.instagram.com/katedameron/'>Instagram</A></li>
+    </HiddenList>
   );
 }
