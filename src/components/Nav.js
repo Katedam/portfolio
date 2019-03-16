@@ -15,7 +15,7 @@ export default function Nav() {
           <h2>CONTACT</h2>
           <Contact />
         </li>
-        <li>RESUME</li>
+        <li><a target="_blank" rel='noopener noreferrer' href='https://www.canva.com/design/DADRV2MZo2E/sCf0cigLV8DZzmCA69udBA/view?website#4'>RESUME</a></li>
       </ul>
     </nav>
   );
