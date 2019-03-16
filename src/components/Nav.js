@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
 import Contact from './Contact';
+import TeckStack from './TechStack';
 
 export default function Nav() {
   return (
@@ -9,7 +10,10 @@ export default function Nav() {
       <Link to="/"><Logo /></Link>
       <ul>
         <li>DEV PROJECTS</li>
-        <li>TECH STACK</li>
+        <li>
+          <h2>TECH STACK</h2>
+          <TeckStack />
+        </li>
         <li>ART STUDIO</li>
         <li>
           <h2>CONTACT</h2>
