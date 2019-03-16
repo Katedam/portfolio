@@ -11,8 +11,9 @@ export default function App() {
   return ( 
     <Router>
       <>
+      <Nav />
       <Switch>
-        <Route path="/" component={Nav}></Route>
+        
       </Switch>
       </>
     </Router>
