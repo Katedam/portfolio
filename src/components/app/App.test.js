@@ -2,7 +2,7 @@ import React from 'react';
 import App from './App';
 import { shallow } from 'enzyme';
 
-jest.mock('../../services/auth.js', () => ({}));
+// jest.mock('../../services/auth.js', () => ({}));
 
 describe('App component', () => {
   it('matches a snapshot', () => {
