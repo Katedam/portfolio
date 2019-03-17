@@ -21,6 +21,8 @@ export default function App() {
       <Switch>
         <Route path="/devprojects" component={Album}></Route>
         <Route path="/artstudio" component={ArtStudio}></Route>
+        <Route path="/3dAlbum" component={Album}></Route>
+        <Route path="/2dAlbum" component={Album}></Route>
         <Route path="/techstack" component={TechStack}></Route>
         <Route path="/contact" component={Contact}></Route>
         <Route exact path="/" component={Home}></Route>

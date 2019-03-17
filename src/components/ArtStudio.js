@@ -1,23 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Figure from './Figure';
+import styles from '../styles/artStudio.css';
 
 export default function ArtStudio() {
   return (
-    <>
-    <h1>Art Studio</h1>
-    <ul>
-      <li>Ceramic / Fiber
-        <Link to="/3dAlbum">
-          <Figure imageURL="" alt=""/>
-        </Link>
-      </li>
-      <li>Paint / Pencil
-        <Link to="/2dAlbum">
-          <Figure imageURL="" alt=""/>
-        </Link>
-      </li>
-    </ul>
-    </>
+    <section className={styles.artStudio}>
+      <header>
+        <h1>Art Studio</h1>
+      </header>
+      <main>
+        <ul>
+          <li>Ceramic / Fiber
+            <Link to="/3dAlbum">
+              <Figure url="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_300/v1552852568/IMG_6437.jpg" alt="clay vessel with fiber decoration"/>
+            </Link>
+          </li>
+          <li>Paint / Pencil
+            <Link to="/2dAlbum">
+              <Figure url="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1552852892/IMG_6807.jpg" alt="oil painting of a dog"/>
+            </Link>
+          </li>
+        </ul>
+      </main>
+    </section>
   );
 }
