@@ -25,3 +25,5 @@ ProjectDetails.propTypes = {
   siteURL: PropTypes.string,
   githubURL: PropTypes.string
 };
+
+export default ProjectDetails;
