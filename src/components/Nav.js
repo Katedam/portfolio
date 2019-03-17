@@ -3,24 +3,25 @@ import { Link } from 'react-router-dom';
 import Logo from './Logo';
 import Contact from './Contact';
 import TeckStack from './TechStack';
-import { StyledNav, StyledLi } from '../styles/nav';
-import { List, A } from '../styles/mainStyles';
+// import { StyledNav, StyledLi } from '../styles/nav';
+// import { List, A } from '../styles/mainStyles';
+import styles from '../styles/nav.css';
 
 export default function Nav() {
   return (
-    <StyledNav>
+    <nav className={styles.nav}>
       <Link to="/"><Logo /></Link>
-      <List>
-        <StyledLi>DEV PROJECTS</StyledLi>
-        <StyledLi>TECH STACK
+      <ul>
+        <li>DEV PROJECTS</li>
+        <li>TECH STACK
           <TeckStack className="subList"/>
-        </StyledLi>
-        <StyledLi>ART STUDIO</StyledLi>
-        <StyledLi>CONTACT
+        </li>
+        <li>ART STUDIO</li>
+        <li>CONTACT
           <Contact className="subList"/>
-        </StyledLi>
-        <StyledLi><A target="_blank" rel='noopener noreferrer' href='https://www.canva.com/design/DADRV2MZo2E/sCf0cigLV8DZzmCA69udBA/view?website#4'>RESUME</A></StyledLi>
-      </List>
-    </StyledNav>
+        </li>
+        <li><a target="_blank" rel='noopener noreferrer' href='https://www.canva.com/design/DADRV2MZo2E/sCf0cigLV8DZzmCA69udBA/view?website#4'>RESUME</a></li>
+      </ul>
+    </nav>
   );
 }

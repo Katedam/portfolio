@@ -1,0 +1,36 @@
+.nav {
+  @media (min-width: 700px) {
+    border-right: black solid 2px;
+    overflow: scroll;
+    height: 100vh;
+  }
+
+  ul {
+    padding: 1em;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  li {
+    text-align: left;
+    padding: 0.5em 0;
+    font-size: 2em;
+  }
+
+  .subList {
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}

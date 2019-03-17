@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Home from '../Home';
 import 'normalize.css';
+import ArtStudio from '../ArtStudio';
 
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <>
       <Switch>
         <Route path="/" component={Home}></Route>
+        <Route path="/artstudio" component={ArtStudio}></Route>
       </Switch>
       </>
     </Router>
