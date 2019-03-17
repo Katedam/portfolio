@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Syncopate:700");
+
 .nav {
+  font-family: "Syncopate", sans-serif;
   @media (min-width: 700px) {
     border-right: black solid 2px;
     overflow: scroll;

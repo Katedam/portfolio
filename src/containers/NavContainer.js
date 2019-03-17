@@ -12,7 +12,7 @@ export default class NavContainer extends PureComponent {
   }
 
   clickHandler = () => {
-    this.setState;({
+    this.setState({
       toggle: !this.state.toggle
     });
   }
