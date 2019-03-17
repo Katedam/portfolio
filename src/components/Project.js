@@ -4,11 +4,11 @@ import ProjectDetails from './ProjectDetails';
 import Figure from './Figure';
 
 function Project({ project }) {
-  const { imageUrl, alt, title, media, about, siteURL, githubURL } = project;
+  const { url, alt, title, media, about, siteURL, githubURL } = project;
   return (
     <section>
       <Figure 
-        imageUrl={imageUrl}
+        url={url}
         alt={alt}
       />
       <ProjectDetails 
