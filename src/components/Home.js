@@ -1,15 +1,13 @@
 import React from 'react';
-import Logo from './Logo';
-import Nav from './Nav';
-import { Main, Section } from '../styles/home';
+
+const headerStyle = {
+  textAlign: 'center',
+};
 
 export default function Home() {
   return (
-    <Main>
-      <Nav />
-      <Section>
-        <Logo />
-      </Section>
-    </Main>
+    <header style={headerStyle}>
+      <h1>Kate R. Dameron</h1>
+    </header>
   );
 }

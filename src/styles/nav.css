@@ -3,6 +3,7 @@
     border-right: black solid 2px;
     overflow: scroll;
     height: 100vh;
+    width: 100%;
   }
 
   ul {
@@ -23,10 +24,6 @@
     text-align: left;
     padding: 0.5em 0;
     font-size: 2em;
-  }
-
-  .subList {
-    display: block;
   }
 
   a {

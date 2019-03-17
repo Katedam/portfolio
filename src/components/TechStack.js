@@ -1,10 +1,10 @@
 import React from 'react';
-import { List, HiddenList } from '../styles/mainStyles';
+import { List } from '../styles/mainStyles';
 import { Item, ListTitle } from '../styles/techStack';
 
 export default function TechStack() {
   return (
-    <HiddenList>
+    <ul>
       <ListTitle>Languages
         <List>
           <Item>HTML - </Item>
@@ -38,6 +38,6 @@ export default function TechStack() {
           <Item>Git</Item>
         </List>
       </ListTitle>
-    </HiddenList>
+    </ul>
   );
 }
