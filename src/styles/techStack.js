@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 // import { List } from './mainStyles';
 
-// use grid to organize the lists?
-
 export const ListTitle = styled.li `
-  font-size: 1em;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
 `;
 
 export const Item = styled.li `

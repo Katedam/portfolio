@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Syncopate:700|Ubuntu");
+.list {
+  list-style-type: none;
+  display: grid;
+
+  ul {
+    padding: 0;
+  }
+}

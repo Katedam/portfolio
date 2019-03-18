@@ -12,6 +12,7 @@ import DevProjects from '../../containers/DevProjects';
 import TechStack from '../TechStack';
 import Contact from '../Contact';
 import Nav from '../Nav';
+import { Wrapper } from '../../styles/mainStyles';
 import 'normalize.css';
 
 
@@ -19,16 +20,20 @@ export default function App() {
   return ( 
     <Router>
       <>
-      <Nav />
-      <Switch>
-        <Route path="/devprojects" component={DevProjects}></Route>
-        <Route path="/artstudio" component={ArtStudio}></Route>
-        <Route path="/3dAlbum" component={ThreeDeeAlbum}></Route>
-        <Route path="/2dAlbum" component={TwoDeeAlbum}></Route>
-        <Route path="/techstack" component={TechStack}></Route>
-        <Route path="/contact" component={Contact}></Route>
-        <Route exact path="/" component={Home}></Route>
-      </Switch>
+      <Wrapper>
+        <Nav />
+        <div>
+          <Switch>
+            <Route path="/devprojects" component={DevProjects}></Route>
+            <Route path="/artstudio" component={ArtStudio}></Route>
+            <Route path="/3dAlbum" component={ThreeDeeAlbum}></Route>
+            <Route path="/2dAlbum" component={TwoDeeAlbum}></Route>
+            <Route path="/techstack" component={TechStack}></Route>
+            <Route path="/contact" component={Contact}></Route>
+            <Route exact path="/" component={Home}></Route>
+          </Switch>
+        </div>
+      </Wrapper>
       </>
     </Router>
   );

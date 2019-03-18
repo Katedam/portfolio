@@ -1,10 +1,11 @@
 import React from 'react';
 import { List } from '../styles/mainStyles';
 import { Item, ListTitle } from '../styles/techStack';
+import styles from '../styles/techStack.css';
 
 export default function TechStack() {
   return (
-    <ul>
+    <ul className={styles.list}>
       <ListTitle>Languages
         <List>
           <Item>HTML - </Item>
