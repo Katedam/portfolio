@@ -28,7 +28,7 @@ export default class Nav extends PureComponent {
 
         <ul className={this.state.toggle ? styles.show : styles.hide }>
           <li onClick={this.handleClick}>
-            <Link to="/devprojects">DEV PROJECTS</Link>
+            <Link to="/devprojects">DEVELOPER</Link>
           </li>
           <li onClick={this.handleClick}>
             <Link to="/techstack">TECH STACK</Link>
