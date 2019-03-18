@@ -11,12 +11,14 @@ export default function ArtStudio() {
       </header>
       <main>
         <ul>
-          <li>Ceramic / Fiber
+          <li>
+            <h2>Ceramic - Fiber</h2>
             <Link to="/3dAlbum">
               <Figure url="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_300/v1552852568/IMG_6437.jpg" alt="clay vessel with fiber decoration"/>
             </Link>
           </li>
-          <li>Paint / Pencil
+          <li>
+            <h2>Paint - Pencil</h2>
             <Link to="/2dAlbum">
               <Figure url="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1552852892/IMG_6807.jpg" alt="oil painting of a dog"/>
             </Link>
