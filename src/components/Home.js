@@ -1,12 +1,9 @@
 import React from 'react';
-
-const headerStyle = {
-  textAlign: 'center',
-};
+import styles from '../styles/home.css';
 
 export default function Home() {
   return (
-    <header style={headerStyle}>
+    <header className={styles.header}>
       <h1>Kate R. Dameron</h1>
     </header>
   );

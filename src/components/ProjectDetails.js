@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from '../styles/projectDetails.css';
 
 function ProjectDetails({ title, media, about, siteURL, githubURL }) {
   return (
-    <aside>
+    <aside className={styles.aside}>
       <header>
         <h1>{title}</h1>
         <p>{media}</p>

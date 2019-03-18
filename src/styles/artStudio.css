@@ -1,14 +1,24 @@
 .artStudio {
   display: grid;
-  grid-template-rows: 20% 80%;
+  grid-template-rows: 5em 1fr;
 
   header {
     text-align: center;
+    font-family: "Ubuntu", sans-serif;
   }
 
   ul {
-    display: grid;
-    grid-template-columns: 50% 50%;
     list-style-type: none;
+    padding: 0;
+
+    @media (min-width: 700px) {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+  }
+
+  li {
+    text-align: center;
+    cursor: pointer;
   }
 }
