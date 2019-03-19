@@ -5,7 +5,11 @@ import styles from '../styles/techStack.css';
 
 export default function TechStack() {
   return (
+  
     <ul className={styles.list}>
+      <Item>
+        <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1553012906/semi-circle2-invert.png" alt="semi-circle shape decoration in yellow"/>
+      </Item>
       <ListTitle>Languages
         <List>
           <Item>HTML - </Item>

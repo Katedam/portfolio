@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Syncopate:700");
+@import url("https://fonts.googleapis.com/css?family=Syncopate:700|Ubuntu:300,400");
 
 .nav {
   font-family: "Syncopate", sans-serif;
@@ -85,7 +85,7 @@
     text-align: left;
     padding: 0.5em 5px;
     font-size: 2em;
-    transition: background-color 1s;
+    transition: background-color 0.5s;
   }
 
   li:hover {
@@ -99,6 +99,6 @@
   a {
     text-decoration: none;
     color: black;
-    transition: color 1s;
+    transition: color 0.5s;
   }
 }
