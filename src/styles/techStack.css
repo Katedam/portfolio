@@ -3,21 +3,20 @@
   list-style-type: none;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 25px repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   height: 100%;
   padding: 0.5%;
   font-size: 0.5em;
 
   img {
-    width: 100%;
+    width: 100px;
   }
 
-  @keyframes {
-    from {
-    }
+  li {
+    justify-self: center;
   }
 
-  li:nth-of-type(1) {
+  /*li:nth-of-type(1) {
     grid-area: 1/1/1/5;
   }
   li:nth-of-type(2) {
@@ -34,14 +33,12 @@
   }
   li:nth-of-type(6) {
     grid-area: 6/1;
-  }
+  }*/
 
   @media (min-width: 700px) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px repeat(5, 1fr);
-    img {
-      width: 101%;
-    }
+
     li:nth-of-type(1) {
       grid-column: 1 / span1;
     }
