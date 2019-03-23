@@ -2,4 +2,15 @@
   background-color: white;
   box-shadow: 2px 2px 5px #e2e2e2;
   border-radius: 2px;
+  opacity: 1;
+  animation: transitionOpac 0.7s linear;
+
+  @keyframes transitionOpac {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 }
