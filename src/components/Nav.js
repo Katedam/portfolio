@@ -31,16 +31,16 @@ export default class Nav extends PureComponent {
 
           <ul className={this.state.toggle ? styles.show : styles.hide }>
             <li onClick={this.handleClick}>
-              <NavLink to="/devprojects" title="link to Developer portfolio">DEVELOPER</NavLink>
+              <NavLink to="/devprojects" activeClassName={styles.selected} title="link to Developer portfolio">DEVELOPER</NavLink>
             </li>
             <li onClick={this.handleClick}>
-              <NavLink to="/techstack" title="link to technologies">TECH STACK</NavLink>
+              <NavLink to="/techstack" activeClassName={styles.selected} title="link to technologies">TECH STACK</NavLink>
             </li>
             <li onClick={this.handleClick}>
-              <NavLink to="/artstudio" title="link to art studio">ART STUDIO</NavLink>
+              <NavLink to="/artstudio" activeClassName={styles.selected} title="link to art studio">ART STUDIO</NavLink>
             </li>
             <li onClick={this.handleClick}>
-              <NavLink to="/contact" title="link to contact">CONTACT</NavLink>
+              <NavLink to="/contact" activeClassName={styles.selected} title="link to contact">CONTACT</NavLink>
             </li>
             <li>
               <a title="link to view resume in new tab" target="_blank" rel='noopener noreferrer' href='https://www.canva.com/design/DADRV2MZo2E/sCf0cigLV8DZzmCA69udBA/view?website#4'>RESUME</a>
