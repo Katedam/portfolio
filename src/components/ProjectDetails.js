@@ -9,8 +9,10 @@ function ProjectDetails({ title, media, about, siteURL, githubURL }) {
         <h1>{title}</h1>
         {(siteURL && githubURL) && 
       <nav>
-        <a href={siteURL}>SITE</a>
-        <a href={githubURL}>GITHUB</a>
+        <ul>
+          <li><a href={siteURL}>SITE</a></li>
+          <li><a href={githubURL}>GITHUB</a></li>
+        </ul>
       </nav>}
         <p>{media}</p>
       </header>

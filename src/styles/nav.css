@@ -72,6 +72,12 @@
     }
   }
 
+  @media (min-width: 700px) {
+    .menuArrow {
+      display: none;
+    }
+  }
+
   .selected {
     &:before {
       content: " ";
