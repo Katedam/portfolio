@@ -3,7 +3,6 @@
 .nav {
   font-family: "Syncopate", sans-serif;
   @media (min-width: 700px) {
-    /*border-right: black solid 2px;*/
     overflow: scroll;
     height: 100vh;
     width: 100%;
@@ -83,9 +82,14 @@
 
   li {
     text-align: left;
+    transition: background-color 0.5s;
     padding: 0.5em 5px;
     font-size: 2em;
-    transition: background-color 0.5s;
+
+    @media (min-width: 700px) {
+      padding: 0.8em 5px;
+      font-size: 2.2vw;
+    }
   }
 
   li:hover {

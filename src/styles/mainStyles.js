@@ -4,10 +4,15 @@ export const Wrapper = styled.div `
   overflow: scroll;
   display: grid;
   grid-template-columns: 100%;
+  background-color: whitesmoke;
 
   @media (min-width: 700px) {
     grid-template-columns: 30% 70%;
   }
+`;
+
+export const MainWrapper = styled.div `
+  background-color: whitesmoke;
 `;
 
 export const List = styled.ul `

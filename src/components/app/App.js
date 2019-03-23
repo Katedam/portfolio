@@ -12,7 +12,7 @@ import DevProjects from '../../containers/DevProjects';
 import TechStack from '../TechStack';
 import Contact from '../Contact';
 import Nav from '../Nav';
-import { Wrapper } from '../../styles/mainStyles';
+import { Wrapper, MainWrapper } from '../../styles/mainStyles';
 import 'normalize.css';
 
 
@@ -22,7 +22,7 @@ export default function App() {
       <>
       <Wrapper>
         <Nav />
-        <div>
+        <MainWrapper>
           <Switch>
             <Route path="/devprojects" component={DevProjects}></Route>
             <Route path="/artstudio" component={ArtStudio}></Route>
@@ -32,7 +32,7 @@ export default function App() {
             <Route path="/contact" component={Contact}></Route>
             <Route exact path="/" component={Home}></Route>
           </Switch>
-        </div>
+        </MainWrapper>
       </Wrapper>
       </>
     </Router>

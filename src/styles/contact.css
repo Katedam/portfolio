@@ -1,7 +1,20 @@
 .ul {
   list-style-type: none;
+  padding: 0;
+  justify-self: center;
+  text-align: center;
+  margin-top: 2em;
 
   li {
     padding: 5px;
+    display: inline;
+  }
+
+  li:nth-of-type(1) {
+    display: block;
+  }
+
+  img {
+    width: 50px;
   }
 }
