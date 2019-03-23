@@ -7,14 +7,14 @@ function ProjectDetails({ title, media, about, siteURL, githubURL }) {
     <aside className={styles.aside}>
       <header>
         <h1>{title}</h1>
-        <p>{media}</p>
-      </header>
-      <p>{about}</p>
-      {(siteURL && githubURL) && 
+        {(siteURL && githubURL) && 
       <nav>
         <a href={siteURL}>SITE</a>
         <a href={githubURL}>GITHUB</a>
       </nav>}
+        <p>{media}</p>
+      </header>
+      <p>{about}</p>
     </aside>
   );
 }

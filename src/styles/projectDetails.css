@@ -1,6 +1,5 @@
 .aside {
   display: grid;
-  grid-template-rows: 1fr 1fr 23px;
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
@@ -12,7 +11,16 @@
   }
 
   p {
-    padding-left: 10px;
+    font-size: 0.8em;
+    padding-left: 5px;
+  }
+
+  header {
+    border-bottom: black solid 2px;
+    p {
+      font-size: 1em;
+      text-align: center;
+    }
   }
 
   nav {
@@ -23,10 +31,15 @@
   }
 
   a {
-    background-color: black;
-    color: white;
+    border-bottom: black solid 2px;
+    color: black;
     text-decoration: none;
     padding: 2px 0;
-    border: white solid 1px;
+  }
+
+  @media (min-width: 436px) {
+    img {
+      width: 400px;
+    }
   }
 }
