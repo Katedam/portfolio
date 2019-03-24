@@ -63,6 +63,14 @@ export default class Nav extends PureComponent {
             </li>
             <li onClick={this.handleClick}>
               <NavLink 
+                to="/about" 
+                activeClassName={styles.selected} 
+                title="link to about page">
+                ABOUT
+              </NavLink>
+            </li>
+            <li onClick={this.handleClick}>
+              <NavLink 
                 to="/contact" 
                 activeClassName={styles.selected} 
                 title="link to contact">

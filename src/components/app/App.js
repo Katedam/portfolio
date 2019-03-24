@@ -12,6 +12,7 @@ import DevProjects from '../../containers/DevProjects';
 import TechStack from '../TechStack';
 import Contact from '../Contact';
 import Nav from '../Nav';
+import Footer from '../Footer';
 import { Wrapper, MainWrapper } from '../../styles/mainStyles';
 import 'normalize.css';
 
@@ -30,9 +31,10 @@ export default function App() {
             <Route path="/2dAlbum" component={TwoDeeAlbum}></Route>
             <Route path="/techstack" component={TechStack}></Route>
             <Route path="/contact" component={Contact}></Route>
-            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/about" component={Home}></Route>
           </Switch>
         </MainWrapper>
+        <Footer />
       </Wrapper>
       </>
     </Router>

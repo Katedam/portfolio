@@ -106,7 +106,7 @@
     padding: 0.5em 5px;
     font-size: 2em;
     position: relative;
-    display: inline-block;
+    display: block;
     z-index: 3;
 
     @media (min-width: 700px) {
@@ -116,7 +116,6 @@
   }
 
   li:last-of-type {
-    display: block;
     margin-bottom: 2em;
   }
 
