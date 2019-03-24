@@ -24,9 +24,15 @@ export default class Nav extends PureComponent {
         </header>
 
         <main>
-          <NavLink to="/" title="In mobile links to home and toggles nav menu">
+          <NavLink 
+            to="/" 
+            title="In mobile links to home and toggles nav menu">
             <label htmlFor="navMenu">Show Nav Menu</label>
-            <div id="navMenu" className={styles.menuArrow} onClick={this.handleClick}>MENU
+            <div 
+              id="navMenu" 
+              className={styles.menuArrow}
+              onClick={this.handleClick}>
+            MENU
             </div>
           </NavLink>
 

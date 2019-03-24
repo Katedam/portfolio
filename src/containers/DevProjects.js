@@ -7,7 +7,7 @@ const projects = [
     media: 'React - Redux - Twilio - Node.js - Express - MongoDB - Auth0',
     alt: 'eucalyptus with a note pinned to it',
     title: 'Note to Self',
-    about: 'Note to Self is a mindfulness tool for people seeking to rewire their inner dialogue. The user is able to create daily or weekly affirmations that can be scheduled once, weekly or daily. They receive their mantras via sms message. Users may also use the affirmations journal to see annonymous words of wisdom from fellow app users. Additionally the "discover" feature allows users to search mental health articles',
+    about: 'Note to Self is a mindfulness tool for people seeking to rewire their inner dialogue. The user is able to create and schedule daily or weekly affirmations. They receive their mantras via sms message. Users may also use the affirmations journal to see annonymous words of wisdom from fellow app users. Additionally the "discover" feature allows users to search mental health articles',
     siteURL: 'https://www.github.com/note-to-self/',
     githubURL: 'https://www.github.com/note-to-self/'
   },

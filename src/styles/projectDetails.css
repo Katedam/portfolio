@@ -8,11 +8,13 @@
     margin-top: 0;
     padding-left: 0;
     text-align: center;
+    font-size: 1.4em;
   }
 
   p {
     font-size: 0.8em;
     padding-left: 5px;
+    grid-row: auto;
   }
 
   header {
@@ -20,6 +22,7 @@
     p {
       font-size: 1em;
       text-align: center;
+      padding-right: 5px;
     }
   }
 

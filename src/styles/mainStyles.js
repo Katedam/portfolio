@@ -13,6 +13,8 @@ export const Wrapper = styled.div `
 
 export const MainWrapper = styled.div `
   background-color: whitesmoke;
+  box-shadow: inset 5px 0 5px -2px #e0dfdf;
+}
 `;
 
 export const List = styled.ul `
