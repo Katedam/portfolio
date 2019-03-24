@@ -78,11 +78,11 @@
       content: " ";
       display: block;
       height: 40%;
-      width: 100%;
+      width: 90%;
       margin-left: -3px;
       margin-right: -3px;
       position: absolute;
-      background: rgba(255, 240, 0, 0.9);
+      background: #e3fd89;
       transform: rotate(2deg);
       top: 47%;
       left: -1px;

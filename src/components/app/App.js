@@ -4,7 +4,7 @@ import {
   Route, 
   Switch 
 } from 'react-router-dom';
-import Home from '../Home';
+import About from '../About';
 import ArtStudio from '../ArtStudio';
 import ThreeDeeAlbum from '../../containers/ThreeDeeAlbum';
 import TwoDeeAlbum from '../../containers/TwoDeeAlbum';
@@ -12,6 +12,7 @@ import DevProjects from '../../containers/DevProjects';
 import TechStack from '../TechStack';
 import Contact from '../Contact';
 import Nav from '../Nav';
+import Home from '../Home';
 import Footer from '../Footer';
 import { Wrapper, MainWrapper } from '../../styles/mainStyles';
 import 'normalize.css';
@@ -31,7 +32,8 @@ export default function App() {
             <Route path="/2dAlbum" component={TwoDeeAlbum}></Route>
             <Route path="/techstack" component={TechStack}></Route>
             <Route path="/contact" component={Contact}></Route>
-            <Route exact path="/about" component={Home}></Route>
+            <Route path="/about" component={About}></Route>
+            {/* <Route exact path="/" component={Home}></Route> */}
           </Switch>
         </MainWrapper>
         <Footer />
