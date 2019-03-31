@@ -3,32 +3,31 @@
 .wrapper {
   padding: 1em;
   display: grid;
+  grid-template-rows: repeat(4, 15rem);
 
   .header {
-    box-shadow: 2px 2px 5px #e2e2e2;
-    border-radius: 2px;
-    box-sizing: border-box;
     text-align: center;
-    width: 75%;
     margin: 0 auto;
 
     h1 {
       margin-top: 1em;
       padding: 1em;
       font-family: "Syncopate", sans-serif;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    img {
+      display: block;
+      height: 50%;
+      margin: 0 auto;
     }
   }
 
   .section {
-    background-color: #e3fd89;
-    border-radius: 2px;
-    padding: 5px;
-    margin: 1em;
-    width: 75%;
-    justify-self: center;
-    position: relative;
     animation: transitionOpac 1s linear;
-    font-family: "Ubuntu", sans-serif;
+    width: 100%;
+    padding: 5% auto;
+    opacity: 1;
 
     @keyframes transitionOpac {
       from {
@@ -41,11 +40,11 @@
 
     article {
       background-color: white;
-      box-shadow: 1px 1px 3px #a3c335;
+      box-shadow: 1px 1px 3px #cbccc9;
       border-radius: 3px;
-      margin: 10px;
-      margin-left: 35px;
       padding: 5px;
+      width: 75%;
+      margin: 0 auto;
     }
 
     h2 {
