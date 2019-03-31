@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+http://www.katedameron.com/* http://www.katedameron.dev/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+http://dreamy-swartz-7c9cf5.netlify.com/* http://www.katedameron.dev/:splat 301!
+/*    /index.html   200

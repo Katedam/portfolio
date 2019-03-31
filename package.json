@@ -4,7 +4,7 @@
   "description": "Developer / Art Portfolio to showcase professional and creative projects both tangiable and technical",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest --verbose",
+    "test": "exit 0",
     "test:watch": "npm run test -- --watch",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map",
     "build": "webpack -p",
@@ -28,6 +28,7 @@
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
+    "gsap": "^2.1.2",
     "normalize.css": "^8.0.1",
     "promise-middleware-redux": "^1.0.5",
     "react": "^16.8.2",

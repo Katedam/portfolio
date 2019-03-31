@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Syncopate:700|Ubuntu:300,400");
+
+.nav {
+  font-family: "Syncopate", sans-serif;
+  background-color: white;
+  overflow: scroll;
+  @media (min-width: 760px) {
+    width: 100%;
+  }
+
+  label {
+    display: none;
+  }
+
+  ul {
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-left: 20%;
+
+    @media (min-width: 760px) {
+      display: block;
+      margin-top: 10px;
+      margin-left: 5%;
+    }
+  }
+
+  .show {
+    display: block;
+  }
+
+  .hide {
+    display: none;
+
+    @media (min-width: 760px) {
+      display: block;
+    }
+  }
+
+  .menuArrow {
+    /*the rectangle*/
+    display: inline-block;
+    height: 40px;
+    margin-left: 0;
+    margin-top: 1em;
+    position: relative;
+    line-height: 2.5em;
+    padding-left: 1em;
+    padding-right: 2em;
+    background: black;
+    color: white;
+    &:after {
+      border-left: 20px solid black;
+    }
+  }
+
+  .menuArrow:after {
+    /*the triangle*/
+    content: "";
+    position: absolute;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    height: 0px;
+    width: 0px;
+    margin-right: -20px;
+    right: 0;
+  }
+
+  @media (min-width: 760px) {
+    .menuArrow {
+      display: none;
+    }
+  }
+
+  .selected {
+    &:before {
+      content: " ";
+      display: block;
+      height: 40%;
+      width: 90%;
+      margin-left: -3px;
+      margin-right: -3px;
+      position: absolute;
+      background: #e3fd89;
+      transform: rotate(2deg);
+      top: 47%;
+      left: -1px;
+      z-index: -1;
+      animation: highlighter 0.5s linear;
+
+      @keyframes highlighter {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  li {
+    text-align: left;
+    transition: background-color 0.5s;
+    padding: 0.5em 5px;
+    font-size: 2em;
+    position: relative;
+    display: block;
+    z-index: 3;
+
+    @media (min-width: 760px) {
+      padding: 0.8em 5px;
+      font-size: 2.2vw;
+    }
+  }
+
+  li:last-of-type {
+    margin-bottom: 2em;
+  }
+
+  li:hover {
+    opacity: 1;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+  }
+
+  @media (min-width: 760px) {
+    div {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 16px;
+      width: 100%;
+      background-color: white;
+    }
+  }
+}
