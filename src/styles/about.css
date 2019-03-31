@@ -5,7 +5,6 @@
   display: grid;
 
   .header {
-    background-color: white;
     box-shadow: 2px 2px 5px #e2e2e2;
     border-radius: 2px;
     box-sizing: border-box;
@@ -21,12 +20,7 @@
   }
 
   .section {
-    /*background: linear-gradient(
-        rgba(255, 255, 255, 0.3),
-        rgba(255, 255, 255, 0.3)
-      ),
-      url("https://res.cloudinary.com/dzxqhkyqd/image/upload/a_180/v1553444925/semi-circle1-yellow.png");*/
-    box-shadow: 2px 2px 5px #e2e2e2;
+    background-color: #e3fd89;
     border-radius: 2px;
     padding: 5px;
     margin: 1em;
@@ -45,8 +39,8 @@
     }
 
     article {
-      background-color: #ffffffc7;
-      box-shadow: 2px 2px 5px grey;
+      background-color: white;
+      box-shadow: 1px 1px 3px #a3c335;
       border-radius: 3px;
       margin: 10px;
       margin-left: 35px;

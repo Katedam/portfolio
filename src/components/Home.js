@@ -30,10 +30,6 @@ export default function Home() {
         src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_250/v1553993214/artem-sapegin-199614-unsplash.jpg"
         alt="computer and red cup on desk" />
       <img
-        id={styles.landscapeOne}
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_400/v1553389397/IMG_7162_2.jpg"
-        alt="landscape of lower Utah"/>
-      <img
         id={styles.skinnyHalfThree}
         src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_250/v1553012906/semi-circle2-invert.png"
         alt="half circle shape"/>
@@ -43,12 +39,32 @@ export default function Home() {
         alt="half circle shape"/>
       <img
         id={styles.triangleOne}
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_200/v1553997486/triangle.png"
+        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_vflip/v1553997486/triangle.png"
         alt="trangle shape"/>
       <img 
         id={styles.triangleTwo}
         src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_200/a_180/v1553999875/triangle_copy.png"
         alt="triangle shape"/>
+      <img
+        id={styles.landscapeOne}
+        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_400/v1554002950/IMG_7171.jpg"
+        alt="landscape of lower utah"/>
+      <img
+        id={styles.desert}
+        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_250/v1554002944/IMG_7216.jpg"
+        alt="cactus in the desert"/>
+      <img
+        id={styles.wheat}
+        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_250/v1554002944/IMG_4651.jpg"
+        alt="wheat tops"/>
+      <img
+        id={styles.skinnyHalfFive}
+        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_100/v1553994751/semi-circle2.png"
+        alt="half circle shape"/>
+      <img
+        id={styles.skinnyHalfSix}
+        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_250/v1553012906/semi-circle2-invert.png"
+        alt="half circle shape"/>
     </main>
   );
 }
