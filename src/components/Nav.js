@@ -15,11 +15,17 @@ export default class Nav extends PureComponent {
     });
   }
 
+  hideMenu = () => {
+    this.setState({
+      toggle: false
+    });
+  }
+
   render() {
     return (
       <nav className={styles.nav}>
 
-        <header>
+        <header onClick={this.hideMenu}>
           <NavLink to="/" title="logo links to home"><Logo /></NavLink>
         </header>
 
