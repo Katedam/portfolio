@@ -5,7 +5,7 @@ export default function About() {
   return (
     <main className={styles.wrapper}>
       <header className={styles.header}>
-        <h1>Kate R. Dameron</h1>
+        <h1>about</h1>
       </header>
 
       <section className={styles.section}>
