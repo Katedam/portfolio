@@ -14,5 +14,6 @@
   .section {
     background-color: whitesmoke;
     box-shadow: inset 5px 0 5px -2px #e0dfdf;
+    display: grid;
   }
 }
