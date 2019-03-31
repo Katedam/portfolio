@@ -11,7 +11,7 @@ export default function About() {
       <section className={styles.section}>
         <article>
           <h2>bio</h2>
-          <p>As a Full-stack Developer with a background in arts education I enjoy making accessible tools that improve our community. When I am not building components and working on my debugging superpowers - I enjoys hiking with my philosophical pup and husband, baking and making art.</p>
+          <p>As a Full-stack Developer with a background in arts education I enjoy making accessible tools that improve our community. When I am not building components and working on my debugging superpowers - I like hiking with my philosophical pup and husband, baking and making art.</p>
         </article>
       </section>
     
