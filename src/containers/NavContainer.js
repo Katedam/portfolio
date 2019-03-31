@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
-import {} from '../styles/mainStyles';
 import Logo from '../components/Logo';
 import styles from '../styles/nav.css';
 import TeckStack from '../components/TechStack';

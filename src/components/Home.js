@@ -41,6 +41,14 @@ export default function Home() {
         id={styles.skinnyHalfFour}
         src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_250/a_180/v1553012906/semi-circle2-invert.png"
         alt="half circle shape"/>
+      <img
+        id={styles.triangleOne}
+        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_200/v1553997486/triangle.png"
+        alt="trangle shape"/>
+      <img 
+        id={styles.triangleTwo}
+        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_200/a_180/v1553999875/triangle_copy.png"
+        alt="triangle shape"/>
     </main>
   );
 }

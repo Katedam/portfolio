@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import { List } from './mainStyles';
 
 export const ListTitle = styled.li `
   font-family: 'Ubuntu', sans-serif;

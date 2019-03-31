@@ -14,7 +14,7 @@ import Contact from '../Contact';
 import Nav from '../Nav';
 import Home from '../Home';
 import Footer from '../Footer';
-import { Wrapper, MainWrapper } from '../../styles/mainStyles';
+import styles from '../../styles/mainStyles.css';
 import 'normalize.css';
 
 
@@ -22,9 +22,9 @@ export default function App() {
   return ( 
     <Router>
       <>
-      <Wrapper>
+      <main className={styles.main}>
         <Nav />
-        <MainWrapper>
+        <section className={styles.section}>
           <Switch>
             <Route path="/devprojects" component={DevProjects}></Route>
             <Route path="/artstudio" component={ArtStudio}></Route>
@@ -35,9 +35,9 @@ export default function App() {
             <Route path="/about" component={About}></Route>
             <Route exact path="/" component={Home}></Route>
           </Switch>
-        </MainWrapper>
+        </section>
         <Footer />
-      </Wrapper>
+      </main>
       </>
     </Router>
   );

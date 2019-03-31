@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Syncopate:700|Ubuntu:300,400");
 
 .ul {
+  padding: 1em;
+  margin: 0;
+  list-style-type: none;
   list-style-type: none;
   padding: 0;
   justify-self: center;
   text-align: center;
   margin-top: 25%;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
   li {
     padding: 5px;
