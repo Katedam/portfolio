@@ -149,16 +149,20 @@
     #desk {
       grid-column-start: 8;
       grid-column-end: 9;
+      grid-row-start: 3;
+      grid-row-end: 4;
     }
     #fatHalfOne {
       grid-column-start: 8;
       grid-column-end: 9;
       grid-row-start: 4;
+      grid-row-end: 5;
     }
     #skinnyHalfOne {
       grid-column-start: 3;
       grid-column-end: 4;
       grid-row-start: 4;
+      grid-row-end: 5;
       height: 100%;
       width: 100%;
     }
@@ -166,6 +170,7 @@
       grid-column-start: 3;
       grid-column-end: 4;
       grid-row-start: 4;
+      grid-row-end: 5;
       height: 100%;
       width: 100%;
     }
@@ -173,23 +178,27 @@
       grid-column-start: 6;
       grid-column-end: 7;
       grid-row-start: 6;
+      grid-row-end: 7;
     }
     #landscapeOne {
       grid-column-start: 1;
       grid-column-end: 3;
       grid-row-start: 2;
       grid-row-end: 3;
+      height: 100%;
     }
     #skinnyHalfThree {
       grid-column-start: 2;
       grid-column-end: 3;
       grid-row-start: 4;
+      grid-row-end: 5;
       height: 100%;
     }
     #skinnyHalfFour {
       grid-column-start: 4;
       grid-column-end: 5;
       grid-row-start: 4;
+      grid-row-end: 5;
       height: 100%;
     }
     #triangleOne {
@@ -197,12 +206,14 @@
       grid-column-start: 6;
       grid-column-end: 7;
       grid-row-start: 5;
+      grid-row-end: 6;
     }
     #triangleTwo {
       width: 50%;
       grid-column-start: 1;
       grid-column-end: 2;
       grid-row-start: 3;
+      grid-row-end: 4;
     }
     #landscapeTwo {
       grid-column-start: 7;
@@ -214,11 +225,13 @@
       grid-column-start: 7;
       grid-column-end: 8;
       grid-row-start: 5;
+      grid-row-end: 6;
     }
     #wheat {
       grid-column-start: 6;
       grid-column-end: 7;
       grid-row-start: 4;
+      grid-row-end: 5;
     }
     #skinnyHalfFive {
       display: none;
