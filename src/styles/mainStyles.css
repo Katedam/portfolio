@@ -1,8 +1,11 @@
 .main {
   overflow: scroll;
   display: grid;
-  grid-template-columns: 100%;
   background-color: whitesmoke;
+
+  @media (max-width: 760px) {
+    grid-template-columns: 100%;
+  }
 
   @media (min-width: 760px) {
     grid-template-columns: 25% 75%;
