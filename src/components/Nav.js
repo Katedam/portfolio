@@ -82,11 +82,12 @@ export default class Nav extends PureComponent {
                 title="link to view resume in new tab" 
                 target="_blank" 
                 rel='noopener noreferrer' 
-                href='https://www.canva.com/design/DADRV2MZo2E/sCf0cigLV8DZzmCA69udBA/view?website#4'>
+                href='https://www.canva.com/design/DADVuxH8Jh0/SVx5gk68ay048gLJE7yJsA/view?website#4'>
                 RESUME
               </a>
             </li>
           </ul>
+          {/* <div></div> */}
         </main>
       </nav>
     );

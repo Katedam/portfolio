@@ -6,7 +6,7 @@ export const Wrapper = styled.div `
   grid-template-columns: 100%;
   background-color: whitesmoke;
 
-  @media (min-width: 700px) {
+  @media (min-width: 760px) {
     grid-template-columns: 25% 75%;
   }
 `;

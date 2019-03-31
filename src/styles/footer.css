@@ -1,8 +1,19 @@
 .footer {
+  background-color: whitesmoke;
+  color: black;
   position: relative;
   bottom: 0;
   width: 100vw;
   text-align: center;
   margin-top: 0;
   font-family: sans-serif;
+  box-shadow: inset 5px 0 5px -2px #e0dfdf;
+  h6 {
+    margin: 10px;
+  }
+
+  @media (min-width: 760px) {
+    width: 75vw;
+    left: 25vw;
+  }
 }

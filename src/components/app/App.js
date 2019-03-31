@@ -33,7 +33,7 @@ export default function App() {
             <Route path="/techstack" component={TechStack}></Route>
             <Route path="/contact" component={Contact}></Route>
             <Route path="/about" component={About}></Route>
-            {/* <Route exact path="/" component={Home}></Route> */}
+            <Route exact path="/" component={Home}></Route>
           </Switch>
         </MainWrapper>
         <Footer />
