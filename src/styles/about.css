@@ -28,6 +28,7 @@
     justify-self: center;
     position: relative;
     animation: transitionOpac 1s linear;
+    font-family: "Ubuntu", sans-serif;
 
     @keyframes transitionOpac {
       from {
