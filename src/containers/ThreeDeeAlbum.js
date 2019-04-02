@@ -14,7 +14,13 @@ import styles from '../styles/album.css';
 
 export default function ThreeDeeAlbum() {
   return (
+    <>
     <h1 className={styles.header}>Coming Soon!</h1>
+    <header>
+      <h1>Ceramic / Fiber</h1>
+      <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_270/v1553999875/triangle_copy.png"/>
+    </header>
+    </>
   );
 }
   

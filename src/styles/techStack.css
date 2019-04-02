@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Syncopate:700|Ubuntu");
+header {
+  text-align: center;
+  margin: 0 auto;
+
+  h1 {
+    margin-top: 1em;
+    padding: 1em;
+    font-family: "Syncopate", sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  img {
+    display: block;
+    height: 50%;
+    margin: 0 auto;
+  }
+}
+
 .list {
   list-style-type: none;
   display: grid;

@@ -5,10 +5,12 @@ import styles from '../styles/artStudio.css';
 
 export default function ArtStudio() {
   return (
-    <section className={styles.artStudio}>
+    <>
       <header>
         <h1>Art Studio</h1>
+        <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_270/v1553999875/triangle_copy.png"/>
       </header>
+    <section className={styles.artStudio}>
       <main>
         <ul>
           <li>
@@ -26,5 +28,6 @@ export default function ArtStudio() {
         </ul>
       </main>
     </section>
+    </>
   );
 }

@@ -4,7 +4,11 @@ import styles from '../styles/techStack.css';
 
 export default function TechStack() {
   return (
-  
+    <>
+    <header>
+      <h1>TechStack</h1>
+      <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_270/v1553999875/triangle_copy.png"/>
+    </header>
     <ul className={styles.list}>
       {/* <Item>
         <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1553012906/semi-circle2-invert.png" alt="semi-circle shape decoration in yellow"/>
@@ -25,5 +29,6 @@ export default function TechStack() {
       <Item><img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554049056/npm-3-1175132.png" alt="node package manager icon"/></Item>
       <Item><img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554049057/vscode.png" alt="VSCode editor icon"/></Item>
     </ul>
+    </>
   );
 }

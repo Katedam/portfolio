@@ -48,6 +48,12 @@ const projects = [
 
 export default function DevProjects() {
   return (
+    <>
+    <header>
+      <h1>Projects</h1>
+      <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_270/v1553999875/triangle_copy.png"/>
+    </header>
     <Album projects={projects}/>
+    </>
   );
 }
