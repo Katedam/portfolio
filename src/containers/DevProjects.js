@@ -8,7 +8,7 @@ const projects = [
     alt: 'eucalyptus with a note pinned to it',
     title: 'Note to Self',
     about: 'Note to Self is a mindfulness tool for people seeking to rewire their inner dialogue. The user is able to create and schedule daily or weekly affirmations. They receive their mantras via sms message. Users may also use the affirmations journal to see annonymous words of wisdom from fellow app users. Additionally the "discover" feature allows users to search mental health articles',
-    siteURL: 'https://www.notes-to-self.netlify.com',
+    siteURL: 'https://notes-to-self.netlify.com',
     githubURL: 'https://www.github.com/note-to-self'
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     alt: 'a drawing of the Futurama spaceship',
     title: 'Futurama API',
     about: 'A RESTful api that returns random quotes from the show Futurama. Each quote includes the name of the character and their picture. Developers may use 4 different routes to return only a sample of given count of quotes, only quotes by a particular character or a sample of a given count of quotes by a particular character',
-    siteURL: 'https://www.futuramaapi.herokuapp.com',
+    siteURL: 'https://futuramaapi.herokuapp.com/',
     githubURL: 'https://www.github.com/katedam/futurama-api'
   },
   {
