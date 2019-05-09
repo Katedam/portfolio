@@ -12,14 +12,27 @@ export default function About() {
       <section className={styles.section}>
         <article>
           <h2>Bio</h2>
-          <p>As a Full-stack Developer with a background in arts education I enjoy making accessible tools that improve our community. When I am not building components and working on my debugging superpowers - I like hiking with my philosophical pup and husband, baking and making art.</p>
+          <p>As a Full-stack Developer with a background in arts education I enjoy making accessible tools that improve the community. When I am not building components and working on my debugging superpowers, I enjoy hiking with my philosophical pup and partner, making food, and working in the art studio.</p>
         </article>
       </section>
     
       <section className={styles.section}>
         <article>
           <h2>Highlights</h2>
-          <p>I have a strong understanding of the MERN stack. I enjoy dissecting a good puzzle and working on my debugging superpowers. I am highly motivated by goals and dedicated to improvement and growth with the onset of each new task. My adaptability and empathy make me a strong collaborator who values harmony when working towards a shared mission and vision. I find mob and pair programming to be highly valuable both educationally and collaboratively.</p>
+          <ul>
+            <li>
+              <span>Collaboration:</span> compassion and empathy are two key strengths which makes me an effective collaborator.
+            </li>
+            <li>
+              <span>Continuous Growth:</span> as a life-long learner, I know the value of constructive feedback and, not only seek it out but also, use it as a tool to proactively improve and grow.
+            </li>
+            <li>
+              <span>Effective Communicator:</span> as a teacher, I learned that listening is the most important part of being an effective communicator and, if my feedback is requested, I do so with words and tone that are constructive and empowering.
+            </li>
+            <li>
+              <span>Adaptable:</span> a desire and ability to adapt, evolve, and take on new challenges is one of the many reasons I transitioned into tech. 
+            </li> 
+          </ul>
         </article>
       </section>
     </main>
