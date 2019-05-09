@@ -8,6 +8,14 @@ export default function Contact() {
       <h1>Get In Touch</h1>
       <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_270/v1553999875/triangle_copy.png"/>
     </header>
+
+    <form name="contact" method="POST" data-netlify="true">
+      <label>Name <input type="text" name="name" /></label>   
+      <label>Email <input type="email" name="email" /></label>
+      <label>Message <textarea name="message"></textarea></label>
+      <button type="submit">Send</button>
+    </form>
+
     <ul className={styles.ul}>
       <li><a href='href="mailto:hello@katedameron.com"'>hello@katedameron.com</a></li>
       <li><a href='https://www.linkedin.com/in/kate-dameron/'><img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554049081/iconfinder_linkedin_252090.png" alt="LinkedIn icon"/></a></li>
