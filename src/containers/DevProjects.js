@@ -1,4 +1,5 @@
 import React from 'react';
+import SectionHeader from '../components/SectionHeader';
 import Album from '../components/Album';
 
 const projects = [
@@ -50,10 +51,7 @@ const projects = [
 export default function DevProjects() {
   return (
     <>
-    <header>
-      <h1>Projects</h1>
-      <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_270/v1553999875/triangle_copy.png"/>
-    </header>
+    <SectionHeader headerText="Projects"/>
     <Album projects={projects}/>
     </>
   );

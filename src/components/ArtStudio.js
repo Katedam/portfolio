@@ -1,15 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+import SectionHeader from './SectionHeader';
 import Figure from './Figure';
 import styles from '../styles/artStudio.css';
 
 export default function ArtStudio() {
   return (
     <>
-      <header>
-        <h1>Art Studio</h1>
-        <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_270/v1553999875/triangle_copy.png"/>
-      </header>
+      <SectionHeader headerText="Art Studio"/>
     <section className={styles.artStudio}>
       <main>
         <ul>

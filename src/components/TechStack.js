@@ -1,14 +1,12 @@
 import React from 'react';
+import SectionHeader from './SectionHeader';
 import { Item } from '../styles/techStack';
 import styles from '../styles/techStack.css';
 
 export default function TechStack() {
   return (
     <>
-    <header>
-      <h1>TechStack</h1>
-      <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_270/v1553999875/triangle_copy.png"/>
-    </header>
+    <SectionHeader headerText="TechStack"/>
     <ul className={styles.list}>
       {/* <Item>
         <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1553012906/semi-circle2-invert.png" alt="semi-circle shape decoration in yellow"/>

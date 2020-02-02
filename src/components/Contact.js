@@ -1,13 +1,11 @@
 import React from 'react';
+import SectionHeader from './SectionHeader';
 import styles from '../styles/contact.css';
 
 export default function Contact() {
   return (
     <>
-    <header className={styles.header}>
-      <h1>Get In Touch</h1>
-      <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_270/v1553999875/triangle_copy.png"/>
-    </header>
+    <SectionHeader headerText="Contact"/>
 
     {/* <form name="contact" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="contact" />
