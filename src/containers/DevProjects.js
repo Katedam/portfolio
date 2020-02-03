@@ -13,14 +13,6 @@ const projects = [
     githubURL: 'https://www.github.com/note-to-self'
   },
   {
-    url: 'https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_400/v1553368593/boris-smokrovic-131485-unsplash.jpg',
-    media: 'React - Redux - Styled-components - Node.js - Express - MongoDB - Auth0',
-    alt: 'a small bird',
-    title: 'Chirp',
-    about: 'Chirp is an imitation of twitter. Users log in with Auth0 and have a profile page. A user can create a new chirp and post it to the home page which displays the popular chirps',
-    githubURL: 'https://www.github.com/katedam/chirp'
-  },
-  {
     url: 'https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_400/v1553368591/843413c4dadef2fa7ed1d63d02130989.jpg',
     media: 'Node.js - Express - MongoDB',
     alt: 'a drawing of the Futurama spaceship',
@@ -28,6 +20,14 @@ const projects = [
     about: 'A RESTful api that returns random quotes from the show Futurama. Each quote includes the name of the character and their picture. Developers may use 4 different routes to return only a sample of given count of quotes, only quotes by a particular character or a sample of a given count of quotes by a particular character',
     siteURL: 'https://futuramaapi.herokuapp.com/',
     githubURL: 'https://www.github.com/katedam/futurama-api'
+  },
+  {
+    url: 'https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_400/v1553368593/boris-smokrovic-131485-unsplash.jpg',
+    media: 'React - Redux - Styled-components - Node.js - Express - MongoDB - Auth0',
+    alt: 'a small bird',
+    title: 'Chirp',
+    about: 'Chirp is an imitation of twitter. Users log in with Auth0 and have a profile page. A user can create a new chirp and post it to the home page which displays the popular chirps',
+    githubURL: 'https://www.github.com/katedam/chirp'
   },
   {
     url: 'https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_400/v1553368604/mohammad-metri-421904-unsplash.jpg',
