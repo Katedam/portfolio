@@ -1,16 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ProjectCard from './ProjectCard';
-import styles from '../styles/album.css';
+import styled from 'styled-components';
 
-function Album({ projects }) {
+const Main = styled.main`
+@media (min-width: 760px) {
+  display: grid;
+  grid-template-rows: max-content;
+  margin: 1em;
+  font-family: "Ubuntu", sans-serif;
+}
+`;
+
+const Album = ({ projects }) => {
   const projectList = projects.map((project, i) => {
     return <ProjectCard key={i} project={project}/>;
   });
   return (
-    <main className={styles.main}>
-      {projectList}
-    </main>
+    <Main>{projectList}</Main>
   );
 }
 
