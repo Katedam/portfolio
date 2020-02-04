@@ -363,56 +363,54 @@ const SkinnyHalfSix = styled(CollageImage)`
   }
 `;
 
-export default function Home() {
-  return (
-    <MainContainer>
-      <Header>
-        <Heading1>Kate  R  Dameron</Heading1>
-        <SubHeader>Full-Stack</SubHeader>
-        <SubHeader>Developer</SubHeader>
-      </Header>
-      <Desk 
-        src='https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_200/v1553993220/kari-shea-226153-unsplash.jpg' 
-        alt='desk with chair and mac book'/>
-      <FatHalfOne
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_90/v1553444925/semi-circle1-yellow.png" 
-        alt="half circle shape"/>
-      <SkinnyHalfOne
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_100/v1553994751/semi-circle2.png"
-        alt="half circle shape"/>
-      <SkinnyHalfTwo
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_100/a_180/v1553994751/semi-circle2.png"
-        alt="half circle shape"/>
-      <Cup
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_250/v1553993214/artem-sapegin-199614-unsplash.jpg"
-        alt="computer and red cup on desk" />
-      <SkinnyHalfThree
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_250/v1553012906/semi-circle2-invert.png"
-        alt="half circle shape"/>
-      <SkinneyHalfFour
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_250/a_180/v1553012906/semi-circle2-invert.png"
-        alt="half circle shape"/>
-      <TriangleOne
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_vflip/v1553997486/triangle.png"
-        alt="trangle shape"/>
-      <TriangleTwo
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_200/a_180/v1553999875/triangle_copy.png"
-        alt="triangle shape"/>
-      <LandscapeOne
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_400/v1554002950/IMG_7171.jpg"
-        alt="landscape of lower utah"/>
-      <Desert
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_250/v1554002944/IMG_7216.jpg"
-        alt="cactus in the desert"/>
-      <Wheat
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_250/v1554002944/IMG_4651.jpg"
-        alt="wheat tops"/>
-      <SkinnyHalfFive
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_100/v1553994751/semi-circle2.png"
-        alt="half circle shape"/>
-      <SkinnyHalfSix
-        src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_250/v1553012906/semi-circle2-invert.png"
-        alt="half circle shape"/>
-    </MainContainer>
-  );
-}
+const Home = () => (
+  <MainContainer>
+    <Header>
+      <Heading1>Kate  R  Dameron</Heading1>
+      <SubHeader>Full-Stack</SubHeader>
+      <SubHeader>Developer</SubHeader>
+    </Header>
+    <Desk 
+      src='https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_200/v1553993220/kari-shea-226153-unsplash.jpg' 
+      alt='desk with chair and mac book'/>
+    <FatHalfOne
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_90/v1553444925/semi-circle1-yellow.png" 
+      alt="half circle shape"/>
+    <SkinnyHalfOne
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_100/v1553994751/semi-circle2.png"
+      alt="half circle shape"/>
+    <SkinnyHalfTwo
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_100/a_180/v1553994751/semi-circle2.png"
+      alt="half circle shape"/>
+    <Cup
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_250/v1553993214/artem-sapegin-199614-unsplash.jpg"
+      alt="computer and red cup on desk" />
+    <SkinnyHalfThree
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_250/v1553012906/semi-circle2-invert.png"
+      alt="half circle shape"/>
+    <SkinneyHalfFour
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_250/a_180/v1553012906/semi-circle2-invert.png"
+      alt="half circle shape"/>
+    <TriangleOne
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/a_vflip/v1553997486/triangle.png"
+      alt="trangle shape"/>
+    <TriangleTwo
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_200/a_180/v1553999875/triangle_copy.png"
+      alt="triangle shape"/>
+    <LandscapeOne
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_400/v1554002950/IMG_7171.jpg"
+      alt="landscape of lower utah"/>
+    <Desert
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_250/v1554002944/IMG_7216.jpg"
+      alt="cactus in the desert"/>
+    <Wheat
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,w_250/v1554002944/IMG_4651.jpg"
+      alt="wheat tops"/>
+    <SkinnyHalfFive
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_100/v1553994751/semi-circle2.png"
+      alt="half circle shape"/>
+    <SkinnyHalfSix
+      src="https://res.cloudinary.com/dzxqhkyqd/image/upload/c_scale,h_250/v1553012906/semi-circle2-invert.png"
+      alt="half circle shape"/>
+  </MainContainer>
+);
