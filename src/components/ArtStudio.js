@@ -5,7 +5,10 @@ import styled from 'styled-components';
 import SectionHeader from './SectionHeader';
 import Figure from './Figure';
 
-const Wrapper = styled.section`display: grid`;
+const Wrapper = styled.section`
+  display: grid;
+  margin-top: 8rem;
+`;
 
 const List = styled.ul`
   display: grid;
@@ -20,26 +23,29 @@ const List = styled.ul`
 `;
 
 const MediaType = styled.li`
-justify-self: center;
-display: grid;
-grid-template-rows: repeat(5, 70px);
-grid-template-columns: 40px 300px 40px;
-text-align: center;
-font-size: 1.2em;
-cursor: pointer;
+  justify-self: center;
+  display: grid;
+  grid-template-rows: repeat(5, 70px);
+  grid-template-columns: 40px 300px 40px;
+  text-align: center;
+  font-size: 1.2em;
+  cursor: pointer;
 `;
 
 const MediaTitle = styled.h2`
-grid-column-start: 2;
-grid-row-start: 3;
-color: #000000;
-z-index: 10;
-background-color: white;
-height: 53%;
-opacity: 0.8;
+  grid-column-start: 2;
+  grid-row-start: 3;
+  color: #000000;
+  z-index: 10;
+  background-color: white;
+  height: 53%;
+  opacity: 0.8;
 `;
 
-const MediaImage = styled.img`opacity: 0.5;`;
+const MediaImage = styled.img`
+  opacity: 0.5;
+  width: 300px;
+`;
 
 const ArtStudio = () => (
   <>

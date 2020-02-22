@@ -4,11 +4,13 @@ import ProjectCard from './ProjectCard';
 import styled from 'styled-components';
 
 const Main = styled.main`
-@media (min-width: 760px) {
-  display: grid;
-  grid-template-rows: max-content;
-  margin: 1em;
-  font-family: "Ubuntu", sans-serif;
+  margin-top: 10rem;
+  @media (min-width: 760px) {
+    display: grid;
+    grid-template-rows: max-content;
+    margin: 1em;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 10rem;
 }
 `;
 

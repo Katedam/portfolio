@@ -11,9 +11,11 @@
     grid-template-columns: 25% 75%;
   }
 
-  .section {
-    background-color: whitesmoke;
-    box-shadow: inset 5px 0 5px -2px #e0dfdf;
-    display: grid;
-  }
+}
+.section {
+  background-color: whitesmoke;
+  box-shadow: inset 5px 0 5px -2px #e0dfdf;
+  display: grid;
+  height: 100vh;
+  overflow: scroll;
 }

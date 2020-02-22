@@ -4,7 +4,8 @@ import styled from 'styled-components';
 
 const Header = styled.header`
   text-align: center;
-  margin: 0 auto;
+  margin: 2rem auto;
+  height: 100px;
 `;
 
 const SectionHeading1 = styled.h1`
@@ -17,7 +18,6 @@ const SectionHeading1 = styled.h1`
 
 const BigChartrueseArrow = styled.img`
   display: block;
-  height: 50%;
   margin: 0 auto;
 `;
 

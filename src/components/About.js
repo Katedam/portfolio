@@ -5,9 +5,8 @@ import styled from 'styled-components';
 
 
 const Wrapper = styled.main`
-  padding: 1em;
   display: grid;
-  grid-template-rows: repeat(4, 15rem);
+  grid-template-rows: repeat(3, 20rem);
 `;
 
 const About = () => (
