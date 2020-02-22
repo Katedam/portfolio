@@ -188,8 +188,8 @@ const LandscapeOne = styled(CollageImage)`
   @media (min-width: 1024px) {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
     height: 100%;
   }
 `;
@@ -272,23 +272,10 @@ const TriangleTwo = styled(CollageImage)`
     width: 50%;
     grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
   }
 `;
-
-// const LandscapeTwo = styled(CollageImage)`
-//   grid-column-start: 7;
-//   grid-column-end: 9;
-//   grid-row-start: 6;
-
-//   @media (min-width: 1024px) {
-//     grid-column-start: 7;
-//     grid-column-end: 9;
-//     grid-row-start: 7;
-//     grid-row-end: 8;
-//   }
-// `;
 
 const Desert = styled(CollageImage)`
   grid-column-start: 1;
@@ -414,3 +401,4 @@ const Home = () => (
       alt="half circle shape"/>
   </MainContainer>
 );
+export default Home;
